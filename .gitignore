@@ -1,0 +1,31 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- SoundSorta local data ---
+# The SQLite database is user-generated (indexed samples, tags) - not source.
+sample_archive.db
+sample_archive.db-wal
+sample_archive.db-shm
+*.db
+*.db-wal
+*.db-shm
+
+# --- Local working / scratch folders ---
+# These look like personal staging areas rather than project source -
+# remove any of these lines if you actually want a folder tracked.
+_Claude Version/
+_Git Latest/
+OLD/
+WORKING/
+
+# --- Editor / OS cruft ---
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
